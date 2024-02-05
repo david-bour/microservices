@@ -1,0 +1,11 @@
+name: CI Barcode Generator
+
+on:
+  push:
+
+jobs:
+  build:
+    uses: ./.github/workflows/ci-reusable.yaml
+    with:
+      image_name: barcode_generator
+      context: ./barcode_generator
