@@ -1,4 +1,4 @@
-name: CI Barcode Generator
+name: CI Build Inventory
 
 on:
   push:
