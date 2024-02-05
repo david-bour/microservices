@@ -3,6 +3,10 @@ name: CI Build Inventory
 on:
   push:
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   build:
     uses: ./.github/workflows/ci-reusable.yaml
