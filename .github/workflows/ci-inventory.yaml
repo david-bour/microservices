@@ -7,5 +7,5 @@ jobs:
   build:
     uses: ./.github/workflows/ci-reusable.yaml
     with:
-      image_name: barcode_generator
-      context: ./barcode_generator
+      image_name: inventory
+      context: ./inventory
